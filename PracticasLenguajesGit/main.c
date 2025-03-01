@@ -11,5 +11,5 @@ pull:
  ctrl + t
 guardar:
  ctrl + k
- ctrl + Shift + k t
+ ctrl + Shift + k
  */
