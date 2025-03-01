@@ -1,15 +1,19 @@
 /*
 MAC xcode
- RUTA:
+RUTA:
  cd desktop/proyectos/lenguajes/PracticasLenguajesGit
  COMANDOS:
-pull: git pull origin main
+pull:
+ git pull origin main
+guardar:
  git add .
  git commit -m ""
  git push origin main
 
 WINDOWS cLion
-ctrl + t para actualizar
-ctrl + k guardar
-ctrl + Shift + k t
+pull:
+ ctrl + t
+guardar:
+ ctrl + k
+ ctrl + Shift + k t
  */
