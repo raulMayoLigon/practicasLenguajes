@@ -73,9 +73,9 @@ void anadirCompra(struct compra **primero) {
     }
     
     printf("\nIntroduce los datos de tu compra:\n");
-    printf("\t-Usuario: "); fpurge(stdin);
+    printf("\t-Usuario: "); while (getchar() != '\n');
     scanf("%s", nuevo->informacion.usuario);
-    printf("\t-Código del producto: "); fpurge(stdin);
+    printf("\t-Código del producto: "); while (getchar() != '\n');
     scanf("%s", nuevo->informacion.codigoProducto);
     printf("\t-Unidades: "); scanf("%d", &nuevo->informacion.unidades);
     printf("\t-Importe de la compra: "); scanf("%d", &nuevo->informacion.importe);
@@ -104,7 +104,7 @@ void mostrarCompra(struct compra *primero) {
     struct compra *actual = primero;
     struct compra *ultimo = NULL;
     
-    printf("Introduce el usuario: "); fpurge(stdin); scanf("%s", usuarioBuscar);
+    printf("Introduce el usuario: "); while (getchar() != '\n'); scanf("%s", usuarioBuscar);
     
     while (actual != NULL) {
             if (strcmp(actual->informacion.usuario, usuarioBuscar) == 0) {
@@ -129,11 +129,11 @@ void anularCompra(struct compra **primero) {
     struct compra *actual = *primero;
     struct compra *anterior = NULL;
 
-    printf("Introduce el usuario: "); fpurge(stdin);
+    printf("Introduce el usuario: "); while (getchar() != '\n');
     scanf("%s", usuarioBuscar);
-    printf("Introduce el código del producto: "); fpurge(stdin);
+    printf("Introduce el código del producto: "); while (getchar() != '\n');
     scanf("%s", codigoBuscar);
-    printf("Introduce el importe: "); fpurge(stdin);
+    printf("Introduce el importe: "); while (getchar() != '\n');
     scanf("%d", &importeBuscar);
 
     while (actual != NULL) {
@@ -163,7 +163,7 @@ void visualizarCompras(struct compra *primero) {
     char usuarioBuscar[21];
     int encontrado = 0;
 
-    printf("Introduce el usuario: "); fpurge(stdin);
+    printf("Introduce el usuario: "); while (getchar() != '\n');
     scanf("%s", usuarioBuscar);
 
     struct compra *actual = primero;

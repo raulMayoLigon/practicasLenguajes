@@ -82,7 +82,7 @@ void apartado1(struct nodo **primero) {
     struct nodo *buscar;
     
     char email[31];
-    printf("Introduce el email: "); fpurge(stdin); scanf("%30s", email);
+    printf("Introduce el email: "); while (getchar() != '\n'); scanf("%30s", email);
     buscar = comprobarMail(*primero, email);
     
     if (buscar == NULL) {
@@ -121,9 +121,9 @@ void anadirUser(struct nodo **primero, char email[]) {
             return;
         } else {
             printf("Introduce el nombre de usuario: ");
-            fpurge(stdin); scanf("%30s", nuevo->informacion.name);
+            while (getchar() != '\n'); scanf("%30s", nuevo->informacion.name);
             printf("Introduce la contraseña del usuario: ");
-            fpurge(stdin); scanf("%16s", nuevo->informacion.password);
+            while (getchar() != '\n'); scanf("%16s", nuevo->informacion.password);
             
             //Unirlo a la lista:
             nuevo->siguiente = *primero;
@@ -140,7 +140,7 @@ void visualizarUsuario(struct nodo *primero) {
     
     char email[31];
     printf("Introduce el mail del usuario a visualizar: ");
-    fpurge(stdin); scanf("%30s", email);
+    while (getchar() != '\n'); scanf("%30s", email);
     
     //Nodo para recorrer toda la lista empezando por primero:
     struct nodo *recorrer;
