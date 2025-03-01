@@ -8,6 +8,7 @@ MAC xcode
  git push origin main
 
 WINDOWS cLion
-ctrl + k
-
+ctrl + t para actualizar
+ctrl + k guardar
+ctrl + Shift + k t
  */
