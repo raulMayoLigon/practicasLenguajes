@@ -2,7 +2,7 @@
 MAC xcode
 COMANDOS:
 pull:
- ./pullProyectosLenguajes.sh
+ ./pullProyectosLenguajes.sh a
 guardar:
  ./guardarProyectosLenguajes.sh
 

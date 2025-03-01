@@ -6,7 +6,7 @@ struct datos {
     double x;
     double y;
 };
-
+opo
 void cambiarValor(int *puntero);
 
 int main(void) {
