@@ -59,6 +59,7 @@
 		E20A56CC2D7324A300CA710F /* practica2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practica2; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20A56D72D7324C800CA710F /* practica3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practica3; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20A56E22D7324F400CA710F /* practica4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practica4; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A3EE12D736A93006DC49A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		E2D9ACE22D721B60001DA3F7 /* PracticasLenguajesGit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticasLenguajesGit; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,6 +133,7 @@
 		E2D9ACD92D721B60001DA3F7 = {
 			isa = PBXGroup;
 			children = (
+				E29A3EE12D736A93006DC49A /* CMakeLists.txt */,
 				E2D9ACE42D721B60001DA3F7 /* PracticasLenguajesGit */,
 				E20A56C22D73244C00CA710F /* practica1 */,
 				E20A56CD2D7324A300CA710F /* practica2 */,
