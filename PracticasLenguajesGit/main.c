@@ -1,14 +1,10 @@
 /*
 MAC xcode
-RUTA:
- cd desktop/proyectos/lenguajes/PracticasLenguajesGit
- COMANDOS:
+COMANDOS:
 pull:
- git pull origin main
+ ./pullProyectosLenguajes.sh
 guardar:
- git add .
- git commit -m ""
- git push origin main
+ ./guardarProyectosLenguajes.sh
 
 WINDOWS cLion
 pull:
