@@ -1,7 +1,7 @@
 //Hay exceso de comentarios, son más que nada para ir yo repasando.
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 
 struct datos {
     double x;
