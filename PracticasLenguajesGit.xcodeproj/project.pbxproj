@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		E20A56BF2D73244C00CA710F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E20A56CA2D7324A300CA710F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E20A56D52D7324C800CA710F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E20A56E02D7324F400CA710F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E2D9ACE02D721B60001DA3F7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -19,10 +55,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E20A56C12D73244C00CA710F /* practica1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practica1; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20A56CC2D7324A300CA710F /* practica2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practica2; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20A56D72D7324C800CA710F /* practica3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practica3; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20A56E22D7324F400CA710F /* practica4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practica4; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D9ACE22D721B60001DA3F7 /* PracticasLenguajesGit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticasLenguajesGit; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		E20A56C22D73244C00CA710F /* practica1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = practica1;
+			sourceTree = "<group>";
+		};
+		E20A56CD2D7324A300CA710F /* practica2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = practica2;
+			sourceTree = "<group>";
+		};
+		E20A56D82D7324C800CA710F /* practica3 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = practica3;
+			sourceTree = "<group>";
+		};
+		E20A56E32D7324F400CA710F /* practica4 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = practica4;
+			sourceTree = "<group>";
+		};
 		E2D9ACE42D721B60001DA3F7 /* PracticasLenguajesGit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PracticasLenguajesGit;
@@ -31,6 +91,34 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E20A56BE2D73244C00CA710F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20A56C92D7324A300CA710F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20A56D42D7324C800CA710F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20A56DF2D7324F400CA710F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2D9ACDF2D721B60001DA3F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,6 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				E2D9ACE42D721B60001DA3F7 /* PracticasLenguajesGit */,
+				E20A56C22D73244C00CA710F /* practica1 */,
+				E20A56CD2D7324A300CA710F /* practica2 */,
+				E20A56D82D7324C800CA710F /* practica3 */,
+				E20A56E32D7324F400CA710F /* practica4 */,
 				E2D9ACE32D721B60001DA3F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				E2D9ACE22D721B60001DA3F7 /* PracticasLenguajesGit */,
+				E20A56C12D73244C00CA710F /* practica1 */,
+				E20A56CC2D7324A300CA710F /* practica2 */,
+				E20A56D72D7324C800CA710F /* practica3 */,
+				E20A56E22D7324F400CA710F /* practica4 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +156,94 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E20A56C02D73244C00CA710F /* practica1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20A56C72D73244C00CA710F /* Build configuration list for PBXNativeTarget "practica1" */;
+			buildPhases = (
+				E20A56BD2D73244C00CA710F /* Sources */,
+				E20A56BE2D73244C00CA710F /* Frameworks */,
+				E20A56BF2D73244C00CA710F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E20A56C22D73244C00CA710F /* practica1 */,
+			);
+			name = practica1;
+			packageProductDependencies = (
+			);
+			productName = practica1;
+			productReference = E20A56C12D73244C00CA710F /* practica1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		E20A56CB2D7324A300CA710F /* practica2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20A56D02D7324A300CA710F /* Build configuration list for PBXNativeTarget "practica2" */;
+			buildPhases = (
+				E20A56C82D7324A300CA710F /* Sources */,
+				E20A56C92D7324A300CA710F /* Frameworks */,
+				E20A56CA2D7324A300CA710F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E20A56CD2D7324A300CA710F /* practica2 */,
+			);
+			name = practica2;
+			packageProductDependencies = (
+			);
+			productName = practica2;
+			productReference = E20A56CC2D7324A300CA710F /* practica2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		E20A56D62D7324C800CA710F /* practica3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20A56DB2D7324C800CA710F /* Build configuration list for PBXNativeTarget "practica3" */;
+			buildPhases = (
+				E20A56D32D7324C800CA710F /* Sources */,
+				E20A56D42D7324C800CA710F /* Frameworks */,
+				E20A56D52D7324C800CA710F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E20A56D82D7324C800CA710F /* practica3 */,
+			);
+			name = practica3;
+			packageProductDependencies = (
+			);
+			productName = practica3;
+			productReference = E20A56D72D7324C800CA710F /* practica3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		E20A56E12D7324F400CA710F /* practica4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20A56E62D7324F400CA710F /* Build configuration list for PBXNativeTarget "practica4" */;
+			buildPhases = (
+				E20A56DE2D7324F400CA710F /* Sources */,
+				E20A56DF2D7324F400CA710F /* Frameworks */,
+				E20A56E02D7324F400CA710F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E20A56E32D7324F400CA710F /* practica4 */,
+			);
+			name = practica4;
+			packageProductDependencies = (
+			);
+			productName = practica4;
+			productReference = E20A56E22D7324F400CA710F /* practica4 */;
+			productType = "com.apple.product-type.tool";
+		};
 		E2D9ACE12D721B60001DA3F7 /* PracticasLenguajesGit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2D9ACE92D721B60001DA3F7 /* Build configuration list for PBXNativeTarget "PracticasLenguajesGit" */;
@@ -91,6 +275,18 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					E20A56C02D73244C00CA710F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E20A56CB2D7324A300CA710F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E20A56D62D7324C800CA710F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E20A56E12D7324F400CA710F = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					E2D9ACE12D721B60001DA3F7 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -111,11 +307,43 @@
 			projectRoot = "";
 			targets = (
 				E2D9ACE12D721B60001DA3F7 /* PracticasLenguajesGit */,
+				E20A56C02D73244C00CA710F /* practica1 */,
+				E20A56CB2D7324A300CA710F /* practica2 */,
+				E20A56D62D7324C800CA710F /* practica3 */,
+				E20A56E12D7324F400CA710F /* practica4 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E20A56BD2D73244C00CA710F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20A56C82D7324A300CA710F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20A56D32D7324C800CA710F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20A56DE2D7324F400CA710F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2D9ACDE2D721B60001DA3F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +354,70 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E20A56C52D73244C00CA710F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E20A56C62D73244C00CA710F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E20A56D12D7324A300CA710F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E20A56D22D7324A300CA710F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E20A56DC2D7324C800CA710F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E20A56DD2D7324C800CA710F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E20A56E72D7324F400CA710F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E20A56E82D7324F400CA710F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E2D9ACE72D721B60001DA3F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -260,6 +552,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E20A56C72D73244C00CA710F /* Build configuration list for PBXNativeTarget "practica1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20A56C52D73244C00CA710F /* Debug */,
+				E20A56C62D73244C00CA710F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20A56D02D7324A300CA710F /* Build configuration list for PBXNativeTarget "practica2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20A56D12D7324A300CA710F /* Debug */,
+				E20A56D22D7324A300CA710F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20A56DB2D7324C800CA710F /* Build configuration list for PBXNativeTarget "practica3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20A56DC2D7324C800CA710F /* Debug */,
+				E20A56DD2D7324C800CA710F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20A56E62D7324F400CA710F /* Build configuration list for PBXNativeTarget "practica4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20A56E72D7324F400CA710F /* Debug */,
+				E20A56E82D7324F400CA710F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E2D9ACDD2D721B60001DA3F7 /* Build configuration list for PBXProject "PracticasLenguajesGit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

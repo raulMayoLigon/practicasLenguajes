@@ -1,4 +1,4 @@
 /* git add .
- git commit -m "Mensaje describiendo los cambios"
+ git commit -m ""
  git push origin main
  */
